@@ -7,6 +7,7 @@ public class HelloWorldWriterTest {
     @Test
     public void ShouldWriteHelloWordToTheConsole () {
         HelloWorldWriter writer = new HelloWorldWriter();
+
         writer.writerHelloWord();
     }
 }
